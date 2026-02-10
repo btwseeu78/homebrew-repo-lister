@@ -3,7 +3,7 @@ cask "repo-lister" do
   name "repo-lister"
   desc "Container image management tool using Kubernetes credentials"
   homepage "https://github.com/btwseeu78/repo-lister"
-  version "0.0.4-gamma"
+  version "0.0.4-alpha"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "repo-lister" do
   on_macos do
     on_intel do
       url "https://github.com/btwseeu78/repo-lister/releases/download/v#{version}/repo-lister_#{version}_darwin_x86_64.tar.gz"
-      sha256 "bfa87905bb968c2115310f254cfb215954e5fbab4fe28896edd3eace68ea942a"
+      sha256 "2f9b78e80778b9897d7ccd64d6403170caff9a30837052815eeb99f0a3b6c479"
     end
     on_arm do
       url "https://github.com/btwseeu78/repo-lister/releases/download/v#{version}/repo-lister_#{version}_darwin_arm64.tar.gz"
-      sha256 "e2f136871a721ce317402935bae8dc32100179ca1a8682e09b53fcfa16bbcdf8"
+      sha256 "fc65c07e3a7c82e5f05af0a08b4377bed28d386d4f8b8c247e402dedd88cb367"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/btwseeu78/repo-lister/releases/download/v#{version}/repo-lister_#{version}_linux_x86_64.tar.gz"
-      sha256 "7021980ae055613ce7e0cf6288a8ad039c6afa149c041fbef8b92594844f27fe"
+      sha256 "33f2534c2791c56651ac898289249cfb0855492d6c5b36ed58e78fe5749c3a49"
     end
     on_arm do
       url "https://github.com/btwseeu78/repo-lister/releases/download/v#{version}/repo-lister_#{version}_linux_arm64.tar.gz"
-      sha256 "0efb2c437a617ab96fd16f6750b29dcc05497a0e8e0e8dc4e0c245d954058395"
+      sha256 "b1dc53d2798b5c63dfd85ae794cfc76079ca1691229fdad34c95d375ffe4451e"
     end
   end
 
